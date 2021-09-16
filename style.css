@@ -144,7 +144,7 @@ a, a:hover {
   text-align: center;
   margin-top: 20px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
   .news-slider__pagination {
      visibility: hidden;
   }
