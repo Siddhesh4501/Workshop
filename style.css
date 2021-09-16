@@ -69,7 +69,8 @@ a, a:hover {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  
+
 }
 @media screen and (max-width: 1300px) {
   .news-slider {
@@ -142,6 +143,12 @@ a, a:hover {
 .news-slider__pagination {
   text-align: center;
   margin-top: 20px;
+}
+@media screen and (max-width: 480px){
+  .news-slider__pagination {
+     visibility: hidden;
+  }
+  
 }
 .news-slider__pagination .swiper-pagination-bullet {
   width: 13px;
