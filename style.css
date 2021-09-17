@@ -17,6 +17,7 @@ a, a:hover {
   width: 1em;
   height: 1em;
   stroke-width: 0;
+  height: 3px;
   stroke: currentColor;
   fill: currentColor;
 }
