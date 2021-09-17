@@ -6,6 +6,13 @@ function cLog(content) {
     console.log(content)
 }
 
+let wrap=document.getElementById("wrap");
+let height=(window.innerHeight-wrap.clientHeight)/2;
+// console.log(height)
+wrap.style.marginTop=`${height}px`
+
+
+
 if($(window).width() > 800) {
     $(document).on("mouseover", ".news__item", function (_event, _element) {
 
@@ -121,6 +128,10 @@ swiper.on('slideChangeTransitionEnd', function () {
     bg.style.height = height + 'px';
     bg.style.transform = 'translateX(' + x + 'px ) translateY(' + y + 'px)';
 });
+
+
+
+
 
 window.onresize=function(){
     location.reload();
